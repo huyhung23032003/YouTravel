@@ -1,0 +1,199 @@
+/* Pc */
+@media (min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header{
+        background-color: #fff;
+        height: 115px;
+    }
+    .header__nav-item-icon{
+        margin: 20px auto;
+    }
+    .header__infor-item-options{
+        padding-left: 40%;
+        padding-top: 50px;
+    }
+
+    .slider__table-header-search{
+        display: none;
+    }
+
+    .content{
+        margin-top: 360px;
+    }
+    .slider__table-des{
+        height: auto;
+    }
+    .slider__table-des-list-location{
+        width: 96.8%;
+    }
+    .footer__main{
+        text-align: center;
+    }
+    .footer__main-control{
+        justify-content: center;
+    }
+    .footer__main-socials{
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .footer__main-socials-box{
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .slider__content-header{
+        font-size: 3.2rem;
+    }
+    .slider__content-subheader-firstletter,
+    .slider__content-subheader-secondletter{
+        font-size: 4.8rem;
+    }
+    .slider__content-subheader-info-city{
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    .slider__content-subheader-info-des{
+        font-size: 2.6rem;
+        line-height: 2px;
+    }
+    .slider__content-price-num-des{
+        font-size: 3.8rem;
+    }
+    .slider__content-price-num-icon {
+        line-height: 58px;
+        font-size: 2rem;
+    }
+    .content__tour-img,
+    .content__time-img{
+        padding-top: 55%;
+    }
+    .content__location {
+        margin-bottom: 15px;
+    }
+    .content__time-info-list{
+        margin-bottom: 45px;
+    }
+    .content__info{
+        margin-top: 55px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .slider__content-header{
+        font-size: 1.7rem;
+        padding-bottom: 0;
+        letter-spacing: 0;
+        line-height: 30px;
+    }
+    .slider__content-subheader-firstletter,
+    .slider__content-subheader-secondletter{
+        font-size: 2.6rem;
+        line-height: 26px;
+        padding-right: 0;
+        letter-spacing: 0;
+    }
+    .slider__content-subheader-info-des{
+        font-size: 1.4rem;
+        line-height: 23px;
+    }
+    .slider__content-subheader-info-city{
+        font-size: 0.7rem;
+        line-height: inherit;
+        margin-top: -4px;
+    }
+    .slider__content-subheader-secondletter,
+    .slider__content-subheader-info{
+        margin-left: 10px;
+    }
+    .slider__content-price-sale{
+        height: 9px;
+    }
+    .slider__content-price-sale-text{
+        margin: 3px;
+        font-size: 0.5rem;
+        line-height: 9px;
+    }
+    .slider__content-price-num-des{
+        line-height: 15px;
+        font-size: 2.1rem;
+        letter-spacing: 0;
+        margin-right: 2px;
+    }
+    .slider__content-price-num-icon{
+        font-size: 0.9rem;
+        line-height: 24px;
+    }
+    .slider__content-price{
+        margin-left: 65px;
+        margin-top: -40px;
+    }
+    .content__header-title{
+        margin: 0 80px;
+    }
+    .content__tour-img,
+    .content__time-img{
+        padding-top: 120%;
+    }
+    .content__tour-info-wrap{
+        padding: 0 80px;
+    }
+    .content__time-info-list{
+        margin-top: 50px;
+    }
+    .content__time-info-number{
+        margin-bottom: 38px;
+    }
+    .content__info{
+        margin-top: 30px;
+    }
+    .footer__bonus-main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content__info-list{
+        flex-direction: column;
+    }
+    .content__tour-info-des{
+        line-height: 40px;
+    }
+    .content__info-list-img,
+    .content__info-list-detail{
+        width: 100%;
+    }
+    .content__info-list-detai-des,
+    .content__info-list-detai-header{
+        text-align: center;
+    }
+    .content__info-list-detail-price{
+        width: 45%;
+        margin: auto;
+    }
+    .content__info-list-detail-price-number{
+        line-height: 52px;
+    }
+    .content__info-list-detail-price-btn{
+        margin-top: 0;
+    }
+    .footer__main{
+        padding-top: 105px;
+    }
+}
